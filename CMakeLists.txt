@@ -1,0 +1,7 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
+
+PROJECT(Cuda_dummy)
+
+FIND_PACKAGE(CUDA)
+
+CUDA_ADD_EXECUTABLE(cuda_dummy cuda_dummy.cu)
